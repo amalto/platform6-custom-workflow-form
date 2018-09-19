@@ -1,0 +1,16 @@
+{
+    "name": "custom-workflow-form",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "node main.js",
+        "build": "node ../node_modules/webpack/bin/webpack.js --config webpack.config.js"
+    },
+    "dependencies": {
+        "@amalto/helpers": "1.4.102",
+        "@amalto/input-validation": "1.4.102",
+        "@amalto/text-input": "1.4.26",
+        "@amalto/toggle-panel": "1.4.29",
+        "@amalto/typings": "1.0.45"
+    }
+}

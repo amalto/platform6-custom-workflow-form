@@ -1,0 +1,12 @@
+*.iml
+.idea
+node_modules
+build/
+*.DS_Store
+target/
+node/
+npm-debug.log
+.baseDir.ts
+.tscache
+static/
+*.log
