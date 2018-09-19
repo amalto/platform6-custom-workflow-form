@@ -3,7 +3,7 @@
 
 This project should be used to build any custom workflow form. It allows importing any third party npm library and/or any component used in the Platform 6 Portal to build a custom UI for a _Work Item_ in the Portal.
 
-A custom workflow form is often pre-populated with some data, provided by a _Groovy Script_ in a JSON format.
+A custom workflow form is often pre-populated with some data, provided by a _Script_ in a JSON format.
 
 
 ## Getting Started
@@ -50,10 +50,10 @@ See the following section to view the UI in the Platform6 Portal.
 To be able to test how your UI will render quickly in the Portal:
 
 - You can go on the Platform6 Portal and click on the **Local UI Test** menu entry
-	- It will ask you to input a JSON object. This is to "simulate" the data provided by the _Groovy Script_ which generates the custom workflow form when triggering the work item. You can leave it as an empty JSON object if your custom form doesn't require any injected data.
+	- It will ask you to input a JSON object. This is to "simulate" the data provided by the _Script_ which generates the custom workflow form when triggering the work item. You can leave it as an empty JSON object if your custom form doesn't require any injected data.
 - Keep in mind you won't be able to trigger you work item task with this testing menu entry. It only allows you to see how it renders and interact with the form you created. To be able to test it from end to end, you need to deploy it.
 
-Use the _Demo JSON Data_ (copy-paste) in the _Import Data_ popup of the testing tool.
+Use the following _Demo JSON Data_ (copy-paste it) in the _Import Data_ popup of the testing tool.
 
 ### Demo JSON Data
 
@@ -89,7 +89,7 @@ npm run build
 
 
 You should get a **bundle.js** file in the _build_ folder. To deploy your form, copy paste the content of this file in the Scripts Service of the Platform6 instance in a dedicated resource.
-You can either use a _TYPESCRIPT_ resource type and use the _getCompiled_ util in the Groovy Script (this is used in the example below - see screenshots) or user a _TEXT_ resource type with the _get_ util in the Groovy Script.
+You can either use a _TYPESCRIPT_ resource type and use the _getCompiled_ util in the Script (this is used in the example below - see screenshots) or user a _TEXT_ resource type with the _get_ util in the Script.
 
 !["copy bundle" result](./documentation/copy_bundle.png)
 
@@ -97,4 +97,4 @@ Screenshot - Copying the _bundle.js_ file content
 
 !["groovy" result](./documentation/groovy.png)
 
-Screenshot - Getting the resource in the Groovy Script. You can also see how the JSON data is injected to the form via the **model** pipeline variable.
+Screenshot - Getting the resource in the Script. You can also see how the JSON data is injected into the form via the **model** pipeline variable.
