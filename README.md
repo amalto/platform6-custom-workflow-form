@@ -8,8 +8,10 @@ A custom workflow form is often pre-populated with some data, provided by a _Scr
 
 ## Getting Started
 
-First, make sure you have `node` and `npm` installed and usable via the command line.
-I recommend using [Visual Studio Code](https://code.visualstudio.com/) as source code editor.
+First, make sure you have `node` and `npm` installed and usable via the command line. (I recommend using the latest LTS version of node which can be downloaded from [here](https://nodejs.org/en/)).
+
+I recommend using [Visual Studio Code](https://code.visualstudio.com/) as source code editor. It works great with TypeScript and React.
+
 You also need to have the port `9090` available on your computer.
 
 
