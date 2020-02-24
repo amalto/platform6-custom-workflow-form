@@ -72,7 +72,7 @@ At this stage you probably just want to start from the content of the example-fo
 
 Kill the server before doing that and then restart it with `npm run dev`.
 
-Custom Workflow Forms UI can be created using the same components as the Custom Services UI. You can go see the documentation [here](https://documentation.amalto.com/platform6/master/develop-app/custom-service/platform6-ui-components/).
+Custom Workflow Forms UI can be created using the same components as the Custom Services UI. You can go see the documentation [here](https://documentation.amalto.com/platform6/latest/reference/custom-services/platform6-ui-components/).
 
 Use the testing tool (Testing section) on the Platform6 Portal to quickly see how your updates will be rendered to the user. 
 
