@@ -10,7 +10,7 @@
         "@amalto/helpers": "1.4.102",
         "@amalto/input-validation": "1.4.102",
         "@amalto/text-input": "1.4.26",
-        "@amalto/toggle-panel": "1.4.29",
+        "@amalto/toggle-panel": "1.9.23",
         "@amalto/typings": "1.0.45"
     }
 }
