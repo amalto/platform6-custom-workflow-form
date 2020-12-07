@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "private": true,
     "dependencies": {
-        "@amalto/platform6-ui": "2.0.0-alpha.2",
+        "@amalto/platform6-ui": "2.9.6",
         "react": "15.7.0"
     },
     "devDependencies": {
