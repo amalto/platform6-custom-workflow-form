@@ -11,6 +11,6 @@
         "@amalto/input-validation": "1.4.102",
         "@amalto/text-input": "1.9.20",
         "@amalto/toggle-panel": "1.4.29",
-        "@amalto/typings": "1.0.45"
+        "@amalto/typings": "1.9.53"
     }
 }
